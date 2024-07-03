@@ -1,3 +1,9 @@
-export default function Home() {
-  return <div>Minha home</div>;
+import Header from "@/components/Header";
+
+export default function HomePage() {
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 }
